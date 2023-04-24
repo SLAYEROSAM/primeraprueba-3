@@ -1,0 +1,30 @@
+/*posicion*/
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+/*posicion y color de fondo*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*color el texto de adentro*/
+.dropdown-content a {
+  display: block;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+}
+/*color de fondo cuando esta el mause*/
+.dropdown-content a:hover {
+  color: navy;
+  background-color: #00A4BD;
+  cursor: crosshair;
+  translate: rotate(45deg);
+}
